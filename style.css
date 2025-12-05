@@ -1,0 +1,273 @@
+        .header-row-1 {
+            padding:20px;
+            font-family:arial;
+            background-color:aquamarine;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+                }
+                .header-row-1 span {
+                    padding-right:10px;
+                    padding-left:10px;
+                }
+                .header-row-2 {
+                    padding:30px;
+                    font-family: Arial;
+                    font-size:20px;
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:space-between;
+                    align-items:center;
+                    background-color:rgb(156, 253, 221)
+                }
+                .header-row-2 span {
+                    padding-right:10px;
+                }
+                .brand-title {
+                    font-size:30px;
+                    font-weight:bold;
+                }
+                article {
+                    background-color:black;
+                    color:white;
+                    font-family:arial;
+                    padding: 15px;
+                    text-align:center;
+                    word-spacing:5px;
+                    letter-spacing:5px;
+                }
+                .bi-lightning-fill {
+                    color:gold;
+                }
+                main {
+                    height:500px;
+                    display:grid;
+                    grid-template-columns:4fr 4fr 4fr;
+                    margin-top:20px;
+                }
+                .women-fashion {
+                    height:500px;
+                    background-image:url("./images/women-fashion.jpg");
+                    background-size:cover;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:space-around;
+                    align-items:center;
+                    opacity:0.9;
+                }
+                .Men-fashion {
+                    height:500px;
+                    background-image:url("./images/men-fashion.jpg");
+                    background-size:cover;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:space-around;
+                    align-items:center;
+                    opacity:0.9;
+                }
+                .kids-fashion {
+                    height:500px;
+                    background-image:url("./images/kids-fashion.jpg");
+                    background-size:cover;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:space-around;
+                    align-items:center;
+                    opacity:0.9;
+                }
+                .women-fashion:hover {
+                    opacity:1;
+                }
+                .Men-fashion:hover {
+                    opacity:1;
+                }
+                .kids-fashion:hover {
+                    opacity:1;
+                }
+                .main-title {
+                    font-size:50px;
+                    color:aquamarine;
+                    font-weight:bold;
+                    font-family:arial;
+                    text-shadow:3px 3px 3px black;
+                }
+                .btn-shop {
+                    background-color:aquamarine;
+                    color:black;
+                    padding:15px;
+                    font-size:18px;
+                    width:80px;
+                    text-align:center;                 
+                    font-family:arial;
+                    letter-spacing:1px;
+                }
+                .services {
+                    padding:30px;
+                    font-family:arial;
+                    font-size:18px;
+                    display:grid;
+                    grid-template-columns:3fr 3fr 3fr 3fr;
+                }
+                .service-text {
+                    font-size:16px;
+                    margin-left:30px;
+                    display:block;
+                    margin-top:5px;
+                }
+                .services span {
+                    padding-left:20px;
+                }
+                .services .bi-truck {
+                    color:red;
+                }
+                .services .bi-arrow-repeat {
+                    color:red;
+                }
+                .services .bi-lock {
+                    color:red;
+                }
+                .services .bi-tag {
+                    color:red;
+                }
+                dialog {
+                    width:360px;
+                    font-family:arial;
+                    border:none;
+                    height:380px;
+                    border-radius:20px;
+                    background-size:cover;
+                }
+                .dialog-header1 {
+                    padding:20px;
+                    background-color:orangered;
+                    border-top-left-radius:20px;
+                    border-top-right-radius:20px;
+                    color:white;
+                    height:60px;
+                }
+                 .dialog-body1 {
+                    background-color:rgb(236, 230, 230);
+                    padding:20px;
+                    border-top-right-radius:20px;
+                    border-top-left-radius:20px;
+                    height :200px;
+                    margin-top:-20px;
+                 }
+                 .box-1 {
+                    border:1px solid gray;
+                    padding:7px;
+                    border-radius:4px;
+                    margin-bottom:5px;
+                    background-color:rgba(246, 241, 241, 0.921);
+                 }
+                 .box-2 {
+                    border:1px solid gray;
+                    padding:7px;
+                    border-radius:4px;
+                    background-color:rgba(246, 241, 241, 0.921);
+                 }
+                 .dialog-footer1 {
+                    padding-right:30px;
+                    background-color:rgb(227, 219, 219);
+                    padding:10px;
+                    border-radius:4px;
+                    font-size:15px;
+                    border-top:1px solid gray;
+                    padding-top:-20px;
+                    height:40px;
+                    color:rgb(95, 92, 92);
+                 }
+                 figure {
+                    width:300px;
+                    border:1px solid gray;
+                    margin:20px;
+                    padding:2px;
+                 }
+                 .women-fashion2 {
+                    background-image:url("./images/women-fashion2.jpg");
+                    background-size:cover;
+                    height:300px;
+                 }
+                 .title {
+                    color:gray;
+                    font-family:arial;
+                 }
+                 .price {
+                    color:black;
+                    font-weight:bold;
+                 }
+                 .men-fashion2 {
+                    background-image:url("./images/men-fashion2.jpg");
+                    background-size:cover;
+                    height:300px;
+                 }
+                 .kids-fashion2 {
+                    background-image:url("./images/kids-fashion2.jpg");
+                    background-size:cover;
+                    height:300px;
+                 }
+                 .women-fashion3 {
+                    background-image:url("./images/women-fashion3.jpg");
+                    background-size:cover;
+                    height:300px;
+                 }
+                 .men-fashion3 {
+                    background-image:url("./images/men-fashion3.jpg");
+                    background-size:cover;
+                    height:300px;
+                 }
+                 .kids-fashion3 {
+                    background-image:url("./images/kids-fashion3.jpg");
+                    background-size:cover;
+                    height:300px;
+                 }  
+                 
+                 footer {
+                    background-color:black;
+                    color:rgb(239, 233, 233);
+                    padding:20px;
+                    font-size:20px;
+                    font-family:arial;
+                    display:grid;
+                    grid-template-columns:6fr 6fr;
+                    height:300px;
+                 } 
+                 .left-panel {
+                    display:grid;
+                    grid-template-columns:3fr 3fr 3fr 3fr;
+                    color:rgb(237, 229, 229);
+                    font-size:18px;
+                 }
+                 .right-panel {
+                    display:grid;
+                    grid-template-columns:6fr 6fr;
+                    border-left:1px solid rgb(239, 233, 233);
+                    padding-left:20px;
+                    color:rgb(247, 244, 244);
+                    font-size:17px;
+                 }
+                 span {
+                    font-family:arial;
+                 }
+                 .title {
+                    font-weight:bold;
+                    font-size:20px;
+                    margin-bottom:20px;
+                 }
+                .main-body {
+                   display:flex;
+                   flex-direction: column;
+                    justify-items:center;
+                    margin-top:20px;
+                    margin-bottom:20px;
+                }
+                .main-body-row1 {
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:center;
+                }
+                .main-body-row2 {
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:center;
+                }
